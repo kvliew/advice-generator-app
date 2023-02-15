@@ -4,10 +4,47 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Manrope', sans-serif;
+}
+
+p {
+  font-family: 'Manrope';
+  text-align: center;
 }
 
 body {
   background-color: hsl(218, 23%, 16%);
-  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  background-color: hsl(217, 19%, 24%);
+  width: 40vw;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+}
+
+.header {
+  display: flex;
+  color: hsl(150, 100%, 66%);
+}
+
+#advice-body {
+  color: white;
+}
+
+button {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
 }
